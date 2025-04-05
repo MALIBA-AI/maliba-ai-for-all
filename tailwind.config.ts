@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				maliba: {
+					ocre: '#C8853E',
+					blue: '#3D7EA6',
+					green: '#598C5A',
+					sand: '#E8D0A9',
+					lightBlue: '#A9CDE8',
+					lightGreen: '#A9E8B8',
+					dark: '#2D2926',
 				}
 			},
 			borderRadius: {
@@ -84,12 +94,39 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					from: { 
+						opacity: '0',
+						transform: 'translateY(10px)' 
+					},
+					to: { 
+						opacity: '1',
+						transform: 'translateY(0)' 
+					}
+				},
+				'slide-in': {
+					from: {
+						transform: 'translateX(-100%)'
+					},
+					to: {
+						transform: 'translateX(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'slide-in': 'slide-in 0.5s ease-out forwards',
+			},
+			backgroundImage: {
+				'hero-pattern': "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format')",
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				heading: ['Montserrat', 'sans-serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
