@@ -5,45 +5,6 @@ import SectionTitle from '@/components/SectionTitle';
 import { CheckCircle2, Clock, Heart, Target } from 'lucide-react';
 
 const About = () => {
-  const teamMembers = [
-    {
-      name: "Amadou Konaté",
-      role: "Fondateur & Chercheur en IA",
-      image: "https://i.pravatar.cc/300?img=1",
-      bio: "Spécialiste en traitement automatique des langues avec focus sur les langues africaines."
-    },
-    {
-      name: "Fatoumata Traoré",
-      role: "Directrice de Recherche",
-      image: "https://i.pravatar.cc/300?img=5",
-      bio: "Docteure en informatique spécialisée dans l'apprentissage profond et les modèles de langage."
-    },
-    {
-      name: "Ibrahim Diallo",
-      role: "Ingénieur Logiciel",
-      image: "https://i.pravatar.cc/300?img=3",
-      bio: "Développeur full-stack avec expertise en applications web et mobiles pour l'accessibilité."
-    },
-    {
-      name: "Aïssata Coulibaly",
-      role: "Linguiste",
-      image: "https://i.pravatar.cc/300?img=10",
-      bio: "Spécialiste des langues maliennes avec focus sur le bambara et le fulfuldé."
-    },
-    {
-      name: "Oumar Touré",
-      role: "Développeur IA",
-      image: "https://i.pravatar.cc/300?img=4",
-      bio: "Expert en machine learning et systèmes de reconnaissance vocale."
-    },
-    {
-      name: "Mariam Sanogo",
-      role: "Gestionnaire de projet",
-      image: "https://i.pravatar.cc/300?img=9",
-      bio: "Coordinatrice des initiatives et de l'engagement communautaire."
-    }
-  ];
-
   return (
     <Layout>
       <div className="relative bg-maliba-blue/10 py-16 md:py-24">
@@ -170,35 +131,6 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      <section className="section">
-        <div className="container">
-          <SectionTitle 
-            title="Notre équipe"
-            subtitle="Des experts passionnés qui travaillent ensemble pour réaliser la vision de MALIBA-AI"
-            centered
-          />
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">{member.name}</h3>
-                  <p className="text-maliba-ocre mb-3">{member.role}</p>
-                  <p className="text-gray-600">{member.bio}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>

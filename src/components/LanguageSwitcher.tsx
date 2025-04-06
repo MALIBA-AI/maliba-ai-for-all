@@ -12,9 +12,6 @@ import {
 const languages = [
   { code: 'fr', name: 'Français' },
   { code: 'en', name: 'English' },
-  { code: 'bm', name: 'Bambara' },
-  { code: 'ff', name: 'Fulfulde' },
-  { code: 'son', name: 'Songhay' },
 ];
 
 const LanguageSwitcher = () => {
