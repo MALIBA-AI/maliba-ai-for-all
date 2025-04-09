@@ -55,12 +55,12 @@ const PublicationCard = ({
         </CardDescription>
       </CardContent>
       <CardFooter className="flex justify-between">
-        <Link to={`/publications/${id}`}>
+        {/* <Link to={`/publications/${id}`}>
           <Button variant="ghost" className="text-maliba-ocre hover:text-maliba-ocre/90 p-0">
             Lire plus
             <ArrowRight className="h-4 w-4 ml-1" />
           </Button>
-        </Link>
+        </Link> */}
         
         {downloadUrl && (
           <a 
@@ -68,7 +68,11 @@ const PublicationCard = ({
             className="flex items-center gap-1 text-gray-500 hover:text-maliba-ocre"
             download
           >
-            <Download className="h-4 w-4" />
+            {/* <Download className="h-4 w-4" /> */}
+            <Button variant="ghost" className="text-maliba-ocre hover:text-maliba-ocre/90 p-0">
+            Lire plus
+            <ArrowRight className="h-4 w-4 ml-1" />
+          </Button>
           </a>
         )}
       </CardFooter>

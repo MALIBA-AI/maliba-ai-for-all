@@ -16,7 +16,7 @@ const publicationsData: PublicationCardProps[] = [
     type: "whitepaper",
     date: "Avril 2025",
     author: "Dr. Fatoumata Traoré",
-    downloadUrl: "#"
+    downloadUrl: "https://google.com"
   },
   {
     id: "voice-tech-mali",
