@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Github, Mail } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Github, Mail, MapPin } from 'lucide-react';
 import Logo from './Logo';
 
 const Footer = () => {
@@ -25,8 +25,14 @@ const Footer = () => {
               <a href="#" className="text-gray-500 hover:text-maliba-ocre" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-maliba-ocre" aria-label="GitHub">
+              <a href="https://github.com/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre" aria-label="GitHub">
                 <Github size={20} />
+              </a>
+              {/* <a href="https://huggingface.co/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre" aria-label="Hugging Face">
+                  <span className="text-xl">🤗</span>
+              </a> */}
+              <a href="https://huggingface.co/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre" aria-label="Hugging Face">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -43,7 +49,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          {/* <div>
             <h3 className="font-heading font-bold text-lg mb-4">Ressources</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-600 hover:text-maliba-ocre">Documentation</a></li>
@@ -52,7 +58,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-600 hover:text-maliba-ocre">Blog</a></li>
               <li><a href="#" className="text-gray-600 hover:text-maliba-ocre">Forum</a></li>
             </ul>
-          </div>
+          </div> */}
           
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Contact</h3>
@@ -62,6 +68,10 @@ const Footer = () => {
                 <a href="mailto:contact@maliba-ai.org" className="text-gray-600 hover:text-maliba-ocre">
                   contact@maliba-ai.org
                 </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <MapPin size={16} className="text-maliba-ocre" />
+                <span className="text-gray-600">Bamako, Mali</span>
               </li>
             </ul>
           </div>
