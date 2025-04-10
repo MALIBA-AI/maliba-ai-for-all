@@ -39,8 +39,8 @@ const Header = () => {
             </Link>
           ))}
         </nav>
-        
-        <div className="flex items-center gap-2">
+        {/* Language switcher div */}
+        {/* <div className="flex items-center gap-2">
           <LanguageSwitcher />
           
           <Button 
@@ -51,7 +51,7 @@ const Header = () => {
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
-        </div>
+        </div> */}
       </div>
       
       {/* Mobile Menu */}
