@@ -28,9 +28,6 @@ const Footer = () => {
               <a href="https://github.com/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre" aria-label="GitHub">
                 <Github size={20} />
               </a>
-              {/* <a href="https://huggingface.co/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre" aria-label="Hugging Face">
-                  <span className="text-xl">🤗</span>
-              </a> */}
               <a href="https://huggingface.co/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre" aria-label="Hugging Face">
                 <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" className="w-5 h-5" />
               </a>

@@ -93,12 +93,12 @@ const Contact = () => {
               </div>
             </div>
             
-            <div>
+            {/* <div>
               <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
                 <h2 className="text-2xl font-bold mb-6 font-heading">Envoyez-nous un message</h2>
                 <ContactForm />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
