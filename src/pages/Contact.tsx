@@ -103,7 +103,7 @@ const Contact = () => {
         </div>
       </section> */}
 
-<section className="section bg-white">
+<section className="section bg-white container">
   <div className="container">
     <SectionTitle 
       title="Nos coordonnées"
