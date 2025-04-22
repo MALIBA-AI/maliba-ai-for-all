@@ -114,7 +114,7 @@ const Join = () => {
                 veuillez remplir notre formulaire détaillé en cliquant sur le lien ci-dessous.
               </p>
               <a 
-                href="https://forms.google.com/your-form-url-here"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf3SqXhNQX7d17321F7JcS_VsQT7CNmJdCE6Q0Hex_UWfVcqQ/viewform?usp=header"
                 target="_blank"
                 rel="noopener noreferrer" 
                 className="inline-flex items-center bg-maliba-blue text-white px-6 py-3 rounded-lg hover:bg-maliba-blue/90 transition-colors"
