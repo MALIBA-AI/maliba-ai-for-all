@@ -1,9 +1,7 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
-import JoinForm from '@/components/JoinForm';
-import { Check, ChevronRight, Code, FileText, Languages, Users } from 'lucide-react';
+import { Check, ChevronRight, Code, FileText, Languages, Users, ExternalLink } from 'lucide-react';
 
 const Join = () => {
   return (
@@ -75,7 +73,7 @@ const Join = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Sensibilisation communautaire</h3>
                     <p className="text-gray-600">
-                      Aidez-nous à sensibiliser les communautés maliennes aux opportunités offertes par l'IA et à recueillir leurs besoins.
+                      Participez à nos événements et aidez-nous à sensibiliser sur l'importance de l'IA inclusive au Mali.
                     </p>
                   </div>
                 </div>
@@ -108,12 +106,22 @@ const Join = () => {
                 </ul>
               </div>
             </div>
-            
-            <div>
-              <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-                <h2 className="text-2xl font-bold mb-6 font-heading">Formulaire d'inscription</h2>
-                <JoinForm />
-              </div>
+
+            <div className="bg-maliba-blue/5 p-8 rounded-xl border border-maliba-blue/20">
+              <h2 className="text-2xl font-bold mb-4 text-maliba-blue">Formulaire de candidature</h2>
+              <p className="text-gray-600 mb-6">
+                Nous sommes ravis de votre intérêt à rejoindre MALIBA-AI ! Pour soumettre votre candidature, 
+                veuillez remplir notre formulaire détaillé en cliquant sur le lien ci-dessous.
+              </p>
+              <a 
+                href="https://forms.google.com/your-form-url-here"
+                target="_blank"
+                rel="noopener noreferrer" 
+                className="inline-flex items-center bg-maliba-blue text-white px-6 py-3 rounded-lg hover:bg-maliba-blue/90 transition-colors"
+              >
+                <span>Remplir le formulaire</span>
+                <ExternalLink className="ml-2 h-5 w-5" />
+              </a>
             </div>
           </div>
         </div>
