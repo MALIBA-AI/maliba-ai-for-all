@@ -183,7 +183,7 @@ const Join = () => {
           
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="#" 
+              href="https://github.com/MALIBA-AI" 
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-md flex items-center transition-colors"
             >
               <span>Forum de discussion</span>
@@ -197,14 +197,14 @@ const Join = () => {
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/company/maliba-ai/" 
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-md flex items-center transition-colors"
             >
               <span>LinkedIn</span>
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://x.com/MalibaAi" 
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-md flex items-center transition-colors"
             >
               <span>Twitter</span>

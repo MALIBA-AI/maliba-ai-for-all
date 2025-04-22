@@ -15,13 +15,13 @@ const Footer = () => {
               visant à résoudre les problèmes locaux tout en assurant l'inclusion de tous.
             </p>
             <div className="flex items-center space-x-4">
-              <a href="#" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="Twitter">
+              <a href="https://x.com/MalibaAi" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="Twitter">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/maliba-ai/" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
               <a href="https://github.com/MALIBA-AI" className="text-gray-500 hover:text-maliba-ocre transition-colors" aria-label="GitHub">
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
-          <p> {new Date().getFullYear()} MALIBA-AI. Tous droits réservés.</p>
+          <p> {new Date().getFullYear()} MALIBA-AI. Tous droits réservés..</p>
         </div>
       </div>
     </footer>
