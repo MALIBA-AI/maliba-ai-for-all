@@ -190,7 +190,7 @@ const Join = () => {
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://github.com/MALIBA-AI" 
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-md flex items-center transition-colors"
             >
               <span>GitHub</span>
