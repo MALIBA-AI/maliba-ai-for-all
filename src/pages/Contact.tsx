@@ -39,13 +39,13 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-bold mb-2">Email</h3>
                 <p className="text-gray-600 mb-1">Pour les questions générales :</p>
-                <a href="mailto:contact@maliba-ai.org" className="text-maliba-blue hover:underline">
-                  contact@maliba-ai.org
+                <a href="mailto:ml.maliba.ai@gmail.com" className="text-maliba-blue hover:underline">
+                  ml.maliba.ai@gmail.com
                 </a>
 
                 <p className="text-gray-600 mt-4 mb-1">Pour les partenariats :</p>
-                <a href="mailto:partenariat@maliba-ai.org" className="text-maliba-blue hover:underline">
-                  partenariat@maliba-ai.org
+                <a href="mailto:ml.maliba.ai@gmail.com" className="text-maliba-blue hover:underline">
+                ml.maliba.ai@gmail.com
                 </a>
               </div>
             </div>
@@ -58,8 +58,8 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-bold mb-2">Téléphone</h3>
                 <p className="text-gray-600 mb-1">Bureau MALIBA-AI :</p>
-                <a href="tel:+22312345678" className="text-maliba-blue hover:underline">
-                  +223 12 34 56 78
+                <a href="tel:+22363387220" className="text-maliba-blue hover:underline">
+                  +223 63 38 72 20
                 </a>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold mb-2">Adresse</h3>
                 <p className="text-gray-600">
                   MALIBA-AI<br />
-                  Hamdallaye ACI 2000<br />
+                  {/* Hamdallaye ACI 2000<br /> */}
                   Bamako, Mali
                 </p>
               </div>

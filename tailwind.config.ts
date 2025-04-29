@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -64,8 +63,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				maliba: {
-					ocre: '#C8853E',
-					blue: '#3D7EA6',
+					ocre: '#FFD83A',
+					blue: '#0E273B',
 					green: '#598C5A',
 					sand: '#E8D0A9',
 					lightBlue: '#A9CDE8',

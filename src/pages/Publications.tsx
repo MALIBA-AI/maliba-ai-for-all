@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -180,7 +179,7 @@ const Publications = () => {
               </p>
               
               <div className="mt-8">
-                <a href="/contact" className="inline-block bg-maliba-ocre hover:bg-maliba-ocre/90 text-white font-medium py-2 px-6 rounded-md">
+                <a href="/contact" className="inline-block text-white font-medium py-2 px-6 rounded-md" style={{backgroundColor: '#FFD83A'}}>
                   Proposer une contribution
                 </a>
               </div>
@@ -191,28 +190,36 @@ const Publications = () => {
               
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-maliba-ocre/10 text-maliba-ocre flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</div>
+                  <div className="h-6 w-6 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5" style={{backgroundColor: 'rgba(255,216,58,0.1)', color: '#FFD83A'}}>
+                    1
+                  </div>
                   <div>
                     <strong>Rigueur scientifique</strong>
                     <p className="text-gray-600 mt-1">Nous veillons à la qualité et à la précision scientifique de toutes nos publications.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-maliba-ocre/10 text-maliba-ocre flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">2</div>
+                  <div className="h-6 w-6 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5" style={{backgroundColor: 'rgba(255,216,58,0.1)', color: '#FFD83A'}}>
+                    2
+                  </div>
                   <div>
                     <strong>Accessibilité</strong>
                     <p className="text-gray-600 mt-1">Nos publications sont rédigées pour être compréhensibles par un large public, pas uniquement des experts.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-maliba-ocre/10 text-maliba-ocre flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</div>
+                  <div className="h-6 w-6 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5" style={{backgroundColor: 'rgba(255,216,58,0.1)', color: '#FFD83A'}}>
+                    3
+                  </div>
                   <div>
                     <strong>Multilinguisme</strong>
                     <p className="text-gray-600 mt-1">Nous encourageons les publications en français et dans les langues maliennes pour maximiser leur impact.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-maliba-ocre/10 text-maliba-ocre flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">4</div>
+                  <div className="h-6 w-6 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5" style={{backgroundColor: 'rgba(255,216,58,0.1)', color: '#FFD83A'}}>
+                    4
+                  </div>
                   <div>
                     <strong>Open Access</strong>
                     <p className="text-gray-600 mt-1">Toutes nos publications sont librement accessibles pour favoriser le partage des connaissances.</p>

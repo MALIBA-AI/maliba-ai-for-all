@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Globe, Lightbulb, Mic, Users } from 'lucide-react';
 import Layout from '@/components/Layout';
@@ -60,19 +59,19 @@ const Index = () => {
               title="Inclusion linguistique"
               description="Développer des modèles de langage pour les langues maliennes, en commençant par le bambara, le fulfuldé et le songhaï."
               icon={Globe}
-              iconClassName="bg-maliba-blue/10 text-maliba-blue"
+              iconClassName="bg-[#FFD83A]/10 text-[#FFD83A]"
             />
             <FeatureCard 
               title="Technologies vocales"
               description="Créer des solutions de reconnaissance et de synthèse vocale adaptées aux dialectes maliens pour surmonter la barrière de l'alphabétisation."
               icon={Mic}
-              iconClassName="bg-maliba-green/10 text-maliba-green"
+              iconClassName="bg-[#FFD83A]/10 text-[#FFD83A]"
             />
             <FeatureCard 
               title="Recherche communautaire"
               description="Promouvoir une recherche collective sur l'IA, impliquant chercheurs, développeurs et utilisateurs dans un écosystème collaboratif."
               icon={Users}
-              iconClassName="bg-maliba-ocre/10 text-maliba-ocre"
+              iconClassName="bg-[#FFD83A]/10 text-[#FFD83A]"
             />
             <FeatureCard 
               title="Solutions accessibles"
@@ -107,7 +106,7 @@ const Index = () => {
         </div>
       </section>
       
-      <section className="section bg-maliba-ocre text-white">
+      <section className="section text-white" style={{backgroundColor: '#FFD83A'}}>
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
@@ -117,7 +116,9 @@ const Index = () => {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="mr-4 mt-1 flex-shrink-0">
-                    <div className="h-6 w-6 rounded-full bg-white text-maliba-ocre flex items-center justify-center font-bold">1</div>
+                    <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center font-bold" style={{color: '#FFD83A'}}>
+                      1
+                    </div>
                   </div>
                   <div>
                     <h3 className="font-bold text-xl mb-2">Barrière linguistique</h3>
@@ -126,7 +127,9 @@ const Index = () => {
                 </li>
                 <li className="flex items-start">
                   <div className="mr-4 mt-1 flex-shrink-0">
-                    <div className="h-6 w-6 rounded-full bg-white text-maliba-ocre flex items-center justify-center font-bold">2</div>
+                    <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center font-bold" style={{color: '#FFD83A'}}>
+                      2
+                    </div>
                   </div>
                   <div>
                     <h3 className="font-bold text-xl mb-2">Infrastructures limitées</h3>
@@ -135,7 +138,9 @@ const Index = () => {
                 </li>
                 <li className="flex items-start">
                   <div className="mr-4 mt-1 flex-shrink-0">
-                    <div className="h-6 w-6 rounded-full bg-white text-maliba-ocre flex items-center justify-center font-bold">3</div>
+                    <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center font-bold" style={{color: '#FFD83A'}}>
+                      3
+                    </div>
                   </div>
                   <div>
                     <h3 className="font-bold text-xl mb-2">Alphabétisation numérique</h3>
@@ -147,25 +152,27 @@ const Index = () => {
             
             <div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-maliba-ocre text-2xl font-bold mb-4 font-heading">Notre approche</h3>
+                <h3 className="text-2xl font-bold mb-4 font-heading" style={{color: '#FFD83A'}}>
+                  Notre approche
+                </h3>
                 <p className="text-gray-700 mb-6">
                   MALIBA-AI relève ces défis à travers une approche communautaire, inclusive et pratique :
                 </p>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-center">
-                    <div className="w-2 h-2 bg-maliba-ocre rounded-full mr-2"></div>
+                    <div className="w-2 h-2 rounded-full mr-2" style={{backgroundColor: '#FFD83A'}}></div>
                     <span>Développement de modèles multilingues pour les langues maliennes</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 bg-maliba-ocre rounded-full mr-2"></div>
+                    <div className="w-2 h-2 rounded-full mr-2" style={{backgroundColor: '#FFD83A'}}></div>
                     <span>Solutions vocales pour contourner les barrières de l'alphabétisation</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 bg-maliba-ocre rounded-full mr-2"></div>
+                    <div className="w-2 h-2 rounded-full mr-2" style={{backgroundColor: '#FFD83A'}}></div>
                     <span>Applications optimisées pour fonctionner avec des ressources limitées</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 bg-maliba-ocre rounded-full mr-2"></div>
+                    <div className="w-2 h-2 rounded-full mr-2" style={{backgroundColor: '#FFD83A'}}></div>
                     <span>Formation et sensibilisation aux technologies d'IA</span>
                   </li>
                 </ul>
@@ -191,7 +198,7 @@ const Index = () => {
           </div>
           
           <Link to="/join">
-            <Button className="bg-maliba-ocre hover:bg-maliba-ocre/90 text-white px-8 py-6 rounded-md font-medium text-lg">
+            <Button className="bg-[#FFD83A] hover:bg-[#FFD83A]/90 text-white px-8 py-6 rounded-md font-medium text-lg">
               Rejoindre la communauté
             </Button>
           </Link>

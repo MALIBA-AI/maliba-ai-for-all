@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { LucideIcon } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -23,7 +22,7 @@ const FeatureCard = ({
     <Card className={cn("card-hover border border-gray-200", className)}>
       <CardHeader>
         {Icon && (
-          <div className={cn("w-12 h-12 flex items-center justify-center rounded-md mb-4 bg-maliba-ocre/10 text-maliba-ocre", iconClassName)}>
+          <div className={cn("w-12 h-12 flex items-center justify-center rounded-md mb-4","text-white","", iconClassName)} style={{backgroundColor: 'rgba(255,216,58,0.1)', color: '#FFD83A'}}>
             <Icon className="h-6 w-6" />
           </div>
         )}

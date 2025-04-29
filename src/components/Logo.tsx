@@ -18,7 +18,7 @@ const Logo = ({ className, showText = true }: LogoProps) => {
         />
       </div>
       {showText && (
-        <div className="ml-2 font-heading font-bold text-xl">MALIBA-AI</div>
+        <div className="ml-2 font-heading font-bold text-xl text-white">MALIBA-AI</div>
       )}
     </div>
   );

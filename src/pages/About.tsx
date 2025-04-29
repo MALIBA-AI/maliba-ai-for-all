@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -32,7 +31,7 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm">
-              <div className="h-12 w-12 rounded-lg bg-maliba-ocre/10 flex items-center justify-center text-maliba-ocre mb-4">
+              <div className="h-12 w-12 rounded-lg flex items-center justify-center text-[#FFD83A] mb-4" style={{backgroundColor: 'rgba(255,216,58,0.1)'}}>
                 <Target className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-3">Open Source</h3>
@@ -78,7 +77,9 @@ const About = () => {
               
               <div className="space-y-6 mt-8">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 h-10 w-10 rounded-full bg-maliba-ocre text-white flex items-center justify-center font-bold mr-4">1</div>
+                  <div className="flex-shrink-0 h-10 w-10 rounded-full text-white flex items-center justify-center font-bold mr-4" style={{backgroundColor: '#FFD83A'}}>
+                    1
+                  </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Démocratiser l'accès à l'IA</h3>
                     <p className="text-gray-600">
@@ -88,7 +89,9 @@ const About = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 h-10 w-10 rounded-full bg-maliba-ocre text-white flex items-center justify-center font-bold mr-4">2</div>
+                  <div className="flex-shrink-0 h-10 w-10 rounded-full text-white flex items-center justify-center font-bold mr-4" style={{backgroundColor: '#FFD83A'}}>
+                    2
+                  </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Préserver et valoriser les langues maliennes</h3>
                     <p className="text-gray-600">
@@ -98,7 +101,9 @@ const About = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 h-10 w-10 rounded-full bg-maliba-ocre text-white flex items-center justify-center font-bold mr-4">3</div>
+                  <div className="flex-shrink-0 h-10 w-10 rounded-full text-white flex items-center justify-center font-bold mr-4" style={{backgroundColor: '#FFD83A'}}>
+                    3
+                  </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Créer un écosystème d'innovation</h3>
                     <p className="text-gray-600">
@@ -108,7 +113,9 @@ const About = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 h-10 w-10 rounded-full bg-maliba-ocre text-white flex items-center justify-center font-bold mr-4">4</div>
+                  <div className="flex-shrink-0 h-10 w-10 rounded-full text-white flex items-center justify-center font-bold mr-4" style={{backgroundColor: '#FFD83A'}}>
+                    4
+                  </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Former la prochaine génération</h3>
                     <p className="text-gray-600">

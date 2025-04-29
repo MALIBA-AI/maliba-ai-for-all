@@ -6,7 +6,7 @@ import { Check, ChevronRight, Code, FileText, Languages, Users, ExternalLink } f
 const Join = () => {
   return (
     <Layout>
-      <div className="relative bg-maliba-ocre text-white py-16 md:py-24">
+      <div className="relative text-white py-16 md:py-24" style={{backgroundColor: '#FFD83A'}}>
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
