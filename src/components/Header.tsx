@@ -47,7 +47,7 @@ const Header = () => {
           
           <Button 
             variant="ghost" 
-            size="icon" 
+            size="icon"/*  */
             className="md:hidden text-white"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >

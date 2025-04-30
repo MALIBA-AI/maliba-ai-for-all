@@ -157,4 +157,12 @@
   .nav-link-active:after {
     @apply w-full;
   }
+
+  .footer-link {
+    color: #fff;
+    transition: color 0.2s;
+  }
+  .footer-link:hover {
+    color: #FFD83A;
+  }
 }
