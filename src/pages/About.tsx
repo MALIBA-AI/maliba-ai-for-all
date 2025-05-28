@@ -6,16 +6,16 @@ import { CheckCircle2, Clock, Heart, Target } from 'lucide-react';
 const About = () => {
   return (
     <Layout>
-      <div className="relative bg-maliba-blue/10 py-16 md:py-24">
+      <div className="relative bg-maliba-blue/95 py-16 md:py-24">
         <div className="container">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
+            <h1 className="text-4xl md:text-5xl text-white font-bold mb-6 font-heading">
               À propos de MALIBA-AI
             </h1>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white/70 mb-4">
               MALIBA-AI est née d'une vision simple mais ambitieuse : rendre l'intelligence artificielle accessible et utile à tous les Maliens.
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-white/70">
               Notre nom combine "Mali Ba" (Grand Mali) et "IA" (Intelligence Artificielle), symbolisant notre engagement à développer des solutions technologiques adaptées aux besoins spécifiques du Mali.
             </p>
           </div>
@@ -142,7 +142,7 @@ const About = () => {
         </div>
       </section>
       
-      <section className="section bg-maliba-blue text-white">
+      <section className="section bg-maliba-blue/95 text-white">
         <div className="container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 font-heading">
             Notre vision pour l'avenir

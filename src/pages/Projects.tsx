@@ -106,13 +106,13 @@ const Projects = () => {
 
   return (
     <Layout>
-      <div className="relative bg-maliba-green/10 py-16 md:py-24">
+      <div className="relative text-white bg-maliba-blue/95 py-16 md:py-24">
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
               Nos projets
             </h1>
-            <p className="text-xl text-gray-700">
+            <p className="text-xl text-white/70">
               Découvrez les initiatives de MALIBA-AI pour rendre l'intelligence artificielle 
               accessible et utile à tous les Maliens.
             </p>
@@ -176,7 +176,7 @@ const Projects = () => {
               MALIBA-AI est une initiative communautaire et nous sommes toujours ouverts à de nouvelles propositions de projets 
               qui répondent aux besoins spécifiques des communautés maliennes.
             </p>
-            <a href="/contact" className="inline-block bg-maliba-ocre hover:bg-maliba-ocre/90 text-white font-medium py-2 px-6 rounded-md">
+            <a href="/contact" className="inline-block bg-maliba-blue hover:bg-maliba-blue/90 text-white font-medium py-2 px-6 rounded-md">
               Soumettre une idée
             </a>
           </div>

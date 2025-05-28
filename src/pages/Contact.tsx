@@ -7,13 +7,13 @@ import { Mail, MapPin, MessageSquare, Phone } from 'lucide-react';
 const Contact = () => {
   return (
     <Layout>
-      <div className="relative bg-maliba-blue text-white py-16 md:py-24">
+      <div className="relative bg-maliba-blue/95 text-white py-16 md:py-24">
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
               Contactez-nous
             </h1>
-            <p className="text-xl">
+            <p className="text-xl text-white/70">
               Une question, une suggestion ou une proposition de partenariat ? 
               N'hésitez pas à nous contacter.
             </p>
@@ -38,14 +38,9 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Email</h3>
-                <p className="text-gray-600 mb-1">Pour les questions générales :</p>
+                <p className="text-gray-600 mb-1">Pour les questions générales/partenariats:</p>
                 <a href="mailto:ml.maliba.ai@gmail.com" className="text-maliba-blue hover:underline">
                   ml.maliba.ai@gmail.com
-                </a>
-
-                <p className="text-gray-600 mt-4 mb-1">Pour les partenariats :</p>
-                <a href="mailto:ml.maliba.ai@gmail.com" className="text-maliba-blue hover:underline">
-                ml.maliba.ai@gmail.com
                 </a>
               </div>
             </div>

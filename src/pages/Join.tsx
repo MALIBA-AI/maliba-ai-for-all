@@ -6,13 +6,13 @@ import { Check, ChevronRight, Code, FileText, Languages, Users, ExternalLink } f
 const Join = () => {
   return (
     <Layout>
-      <div className="relative text-white py-16 md:py-24" style={{backgroundColor: '#FFD83A'}}>
+      <div className="relative text-white bg-maliba-blue/95 py-16 md:py-24">
         <div className="container">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
               Rejoignez MALIBA-AI
             </h1>
-            <p className="text-xl mb-6">
+            <p className="text-xl mb-6 text-white/70">
               Devenez membre de notre communauté et contribuez au développement de l'intelligence artificielle 
               inclusive au Mali, quelle que soit votre expertise.
             </p>

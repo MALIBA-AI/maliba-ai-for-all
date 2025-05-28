@@ -47,7 +47,7 @@ const Hero = ({
           </p>
           <Link to={ctaLink}>
             <Button
-              className="bg-maliba-ocre hover:bg-maliba-ocre/90 text-white px-8 py-6 rounded-md font-medium text-lg"
+              className="bg-maliba-blue hover:bg-maliba-blue/90 text-white px-8 py-6 rounded-md font-medium text-lg"
             >
               {ctaText}
               <ArrowRight className="ml-2 h-5 w-5" />

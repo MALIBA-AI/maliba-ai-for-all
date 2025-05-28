@@ -106,11 +106,11 @@ const Index = () => {
         </div>
       </section>
       
-      <section className="section text-white" style={{backgroundColor: '#FFD83A'}}>
+      <section className="section text-black" style={{backgroundColor: '#OE273B'}}>
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 font-heading">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 font-heading" style={{color: '#FFD83A'}}>
                 Les défis de l'IA au Mali
               </h2>
               <ul className="space-y-4">
@@ -198,7 +198,7 @@ const Index = () => {
           </div>
           
           <Link to="/join">
-            <Button className="bg-[#FFD83A] hover:bg-[#FFD83A]/90 text-white px-8 py-6 rounded-md font-medium text-lg">
+            <Button className="bg-maliba-blue hover:bg-maliba-blue/90 text-white px-8 py-6 rounded-md font-medium text-lg">
               Rejoindre la communauté
             </Button>
           </Link>
