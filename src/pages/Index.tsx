@@ -11,27 +11,27 @@ import { Link } from 'react-router-dom';
 const featuredProjects = [
   {
     id: "bambara-llm",
-    title: "Modèle linguistique Bambara",
-    description: "Un modèle de langage pré-entraîné pour le bambara, permettant de générer et comprendre des textes en langue bambara.",
+    title: "Maliba ASR",
+    description: "Un modèle de reconnaissance vocale entraîné pour le bambara, capable de transcrire automatiquement la parole en texte, que le discours soit entièrement en bambara ou mêlé au français ou englais.",
     category: "Modèles de langage",
-    tags: ["NLP", "Bambara", "LLM"],
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&auto=format"
+    tags: ["NLP", "Bambara", "ASR"],
+    image: "https://nordicapis.com/wp-content/uploads/5-Best-Speech-to-Text-APIs-in-2021.png"
   },
   {
     id: "mali-voice",
-    title: "Mali Voice",
-    description: "Technologie de reconnaissance vocale adaptée aux dialectes maliens pour faciliter l'accès à l'information pour tous.",
+    title: "Mali voice",
+    description: "Une technologie de synthèse voice capable de generer de la voix synthetique en bambara, boomu, dogon, pular, songhoy et tamasheq",
     category: "Technologies vocales",
     tags: ["Speech-to-Text", "Accessibilité", "Dialectes"],
-    image: "https://images.unsplash.com/photo-1601933513737-fd5d8913cbf9?w=500&auto=format"
+    image: "https://images.ctfassets.net/y769453lpkt4/47doSFP2bhd6oWYwffTpIr/58f5f8c551d26863be59723f2a34d569/62b264ced6e2c5184b2ce2d4_The_8_Best_TTS_Voice_Providers.jpg"
   },
   {
     id: "ai-for-agriculture",
-    title: "IA pour l'agriculture",
-    description: "Solutions d'IA pour aider les agriculteurs maliens à optimiser leurs cultures et à faire face aux défis climatiques.",
-    category: "Applications",
-    tags: ["Agriculture", "Développement durable", "Prédiction"],
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=500&auto=format"
+    title: "Bambara Voice Assistant",
+  description: "Un assistant vocal 100% en Bambara, capable de répondre à l’oral en Bambara et d’aider les utilisateurs à comprendre des documents administratifs, accéder à des informations utiles (santé, agriculture, éducation) ou encore apprendre des notions scientifiques comme les lois de la physique le tout sans avoir besoin de savoir lire ou écrire.",
+  category: "Technologies vocales",
+  tags: ["Bambara", "Assistant vocal", "Accessibilité", "Éducation", "Traduction", "Inclusion numérique"],
+  image: "https://www.sprinterra.com/wp-content/uploads/2024/07/iStock-1367728606.jpg"
   }
 ];
 
@@ -50,14 +50,14 @@ const Index = () => {
         <div className="container">
           <SectionTitle 
             title="Notre mission"
-            subtitle="MALIBA-AI combine 'Mali Ba' (Grand Mali) et IA (Intelligence Artificielle) pour créer des solutions technologiques adaptées aux défis locaux"
-            centered
+            // subtitle="MALIBA-AI est la pour créer des solutions technologiques adaptées aux défis locaux en utilisant AI (Intelligence Artificielle)"
+            // centered
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
             <FeatureCard 
               title="Inclusion linguistique"
-              description="Développer des modèles de langage pour les langues maliennes, en commençant par le bambara, le fulfuldé et le songhaï."
+              description="Développer des modèles de langage pour les langues maliennes, telque le bambara, le fulfuldé et le songhaï..."
               icon={Globe}
               iconClassName="bg-[#FFD83A]/10 text-[#FFD83A]"
             />
@@ -69,16 +69,18 @@ const Index = () => {
             />
             <FeatureCard 
               title="Recherche communautaire"
-              description="Promouvoir une recherche collective sur l'IA, impliquant chercheurs, développeurs et utilisateurs dans un écosystème collaboratif."
+              description="Unir chercheurs, développeurs, linguistes, étudiants et passionnés dans un écosystème collaboratif pour mener des recherches et développer des solutions d’IA axées sur nos langues et notre communauté"
               icon={Users}
               iconClassName="bg-[#FFD83A]/10 text-[#FFD83A]"
             />
             <FeatureCard 
               title="Solutions accessibles"
-              description="Développer des applications pratiques qui répondent aux besoins spécifiques des communautés maliennes dans divers secteurs."
+              description="Développer des solutions pratiques qui répondent aux besoins spécifiques des communautés maliennes dans divers secteurs telque l'agrioculture, l'éducation, la santé, le commerce ..."
               icon={Lightbulb}
               iconClassName="bg-gray-500/10 text-gray-500"
             />
+
+            
           </div>
         </div>
       </section>
@@ -192,7 +194,7 @@ const Index = () => {
           
           <div className="max-w-2xl mx-auto mt-8 mb-10 text-lg">
             <p>
-              Que vous soyez développeur, linguiste, chercheur, traducteur ou simplement intéressé par l'IA, 
+              Que vous soyez chercheur, développeur, linguiste, étudiant ou simplement intéressé par l'IA et l'impact social, 
               votre contribution est précieuse pour faire avancer notre mission collective.
             </p>
           </div>

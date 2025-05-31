@@ -14,10 +14,15 @@ const About = () => {
               À propos de MALIBA-AI
             </h1>
             <p className="text-xl text-white/70 mb-4">
-              MALIBA-AI est née d'une vision simple mais ambitieuse : rendre l'intelligence artificielle accessible et utile à tous les Maliens.
+              MALIBA-AI est une initiative communautaire née d’une vision simple mais puissante : rendre l’intelligence artificielle accessible, compréhensible et bénéfique pour tous les Maliens, quelle que soit leur langue ou leur niveau d’éducation. 
             </p>
+            
+            <p className="text-xl text-white/70 mb-4">
+              Le nom MALIBA-AI combine « Mali Ba » (Grand Mali) et « IA » (Intelligence Artificielle), reflétant notre engagement à développer des technologies ancrées dans les réalités locales, respectueuses des cultures, et conçues pour répondre aux besoins spécifiques de notre société.
+            </p>
+
             <p className="text-lg text-white/70">
-              Notre nom combine "Mali Ba" (Grand Mali) et "IA" (Intelligence Artificielle), symbolisant notre engagement à développer des solutions technologiques adaptées aux besoins spécifiques du Mali.
+              Notre objectif : faire de l’IA une force de développement équitable, en créant des outils en langues maliennes, adaptés aux secteurs clés comme l’éducation, la santé, l’agriculture et l’inclusion numérique.
             </p>
           </div>
         </div>
@@ -57,7 +62,7 @@ const About = () => {
               <div className="h-12 w-12 rounded-lg bg-maliba-green/10 flex items-center justify-center text-maliba-green mb-4">
                 <CheckCircle2 className="h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Impact local</h3>
+              <h3 className="text-xl font-bold mb-3">Impact Social</h3>
               <p className="text-gray-600">
                 Notre priorité est de développer des solutions qui répondent aux défis spécifiques du Mali et qui 
                 apportent une valeur ajoutée concrète à la vie quotidienne des Maliens.

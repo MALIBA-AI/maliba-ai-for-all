@@ -47,9 +47,9 @@ const Join = () => {
                     <Languages className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">Traduction et linguistique</h3>
+                    <h3 className="text-xl font-bold mb-2">Annotation et linguistique</h3>
                     <p className="text-gray-600">
-                      Aidez-nous à traduire et à adapter nos solutions dans les langues maliennes, ou contribuez à nos corpus linguistiques.
+                      Participez à l’adaptation de nos technologies aux langues maliennes en contribuant à l’annotation, à la transcription ou à la collecte de corpus. Votre aide est essentielle pour construire des outils inclusifs et accessibles.
                     </p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Join = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Documentation et recherche</h3>
                     <p className="text-gray-600">
-                      Participez à la rédaction de documentation technique, d'articles de blog ou de papiers de recherche.
+                      Participez à la rédaction de documentation technique, d'articles de blog ou d'articles de recherche. Chaque mot compte pour diffuser le savoir.
                     </p>
                   </div>
                 </div>
@@ -147,8 +147,8 @@ const Join = () => {
             <div className="bg-white p-6 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Comment se déroule la collaboration ?</h3>
               <p className="text-gray-600">
-                Nous collaborons principalement en ligne via des plateformes comme GitHub, des forums de discussion 
-                et des réunions virtuelles. Des rencontres en présentiel sont également organisées régulièrement à Bamako.
+                Nous collaborons principalement en ligne via des plateformes comme GitHub, Huggingface, des forums de discussion 
+                et des réunions virtuelles. Des rencontres en présentiel sont également organisées si nécessaire.
               </p>
             </div>
             

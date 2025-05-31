@@ -117,10 +117,9 @@ const Contact = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-bold mb-3">Proposez-vous des stages ou des emplois ?</h3>
+              <h3 className="text-xl font-bold mb-3">Travaillez-vous uniquement sur les langues maliennes ? </h3>
               <p className="text-gray-600">
-                Oui, nous proposons occasionnellement des stages et des opportunités d'emploi. 
-                Consultez notre page "Rejoignez-nous" ou contactez-nous pour plus d'informations.
+                Notre priorité est de développer des technologies pour les langues maliennes, mais nous sommes également ouverts à des collaborations avec d'autres communautés africaines partageant les mêmes enjeux linguistiques et culturels.
               </p>
             </div>
             
@@ -135,8 +134,8 @@ const Contact = () => {
             <div className="bg-white p-6 rounded-lg border border-gray-200">
               <h3 className="text-xl font-bold mb-3">Les solutions MALIBA-AI sont-elles payantes ?</h3>
               <p className="text-gray-600">
-                La plupart de nos solutions sont open source et gratuites. Pour les services spécifiques 
-                ou personnalisés, veuillez nous contacter pour discuter des modalités.
+                Nos solutions sont open source et gratuites. Pour les services spécifiques 
+                ou personnalisés, veuillez nous contacter pour en discuter.
               </p>
             </div>
           </div>
