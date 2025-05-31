@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import { CheckCircle2, Clock, Heart, Target } from 'lucide-react';
+const malibaAiImage = '/images/malibaai.jpeg';
 
 const About = () => {
   return (
@@ -128,8 +129,8 @@ const About = () => {
             
             <div className="relative h-96 md:h-[500px]">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format" 
-                alt="Technology" 
+                src={malibaAiImage} 
+                alt="Maliba AI" 
                 className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6 rounded-b-lg">
