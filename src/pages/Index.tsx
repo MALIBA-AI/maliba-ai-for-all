@@ -17,7 +17,8 @@ const featuredProjects = [
     category: "Modèles de langage",
     tags: ["NLP", "Bambara", "ASR"],
     image: "https://nordicapis.com/wp-content/uploads/5-Best-Speech-to-Text-APIs-in-2021.png",
-    link: "https://huggingface.co/sudoping01/maliba-asr-v1"
+    link: "https://huggingface.co/sudoping01/maliba-asr-v1",
+    commingSoon: false
   },
   {
     id: "mali-voice",
@@ -26,7 +27,8 @@ const featuredProjects = [
     category: "Technologies vocales",
     tags: ["Speech-to-Text", "Accessibilité", "Dialectes"],
     image: "https://images.ctfassets.net/y769453lpkt4/47doSFP2bhd6oWYwffTpIr/58f5f8c551d26863be59723f2a34d569/62b264ced6e2c5184b2ce2d4_The_8_Best_TTS_Voice_Providers.jpg",
-    link: "https://huggingface.co/spaces/MALIBA-AI/MalianTTS"
+    link: "https://huggingface.co/spaces/MALIBA-AI/MalianTTS",
+    commingSoon: false
   },
   {
     id: "ai-for-agriculture",
@@ -35,7 +37,8 @@ const featuredProjects = [
   category: "Technologies vocales",
   tags: ["Bambara", "Assistant vocal", "Accessibilité", "Éducation", "Traduction", "Inclusion numérique"],
   image: "https://www.sprinterra.com/wp-content/uploads/2024/07/iStock-1367728606.jpg",
-  link: "#n"
+  link: "#n",
+  commingSoon: true
   }
 ];
 
