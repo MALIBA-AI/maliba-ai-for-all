@@ -63,9 +63,9 @@ const ProjectCard = ({
         </a>
         {/* </Link> */}
         
-        <a href="#" className="text-gray-500 hover:text-maliba-ocre">
+        {/* <a href="#" className="text-gray-500 hover:text-maliba-ocre">
           <LinkIcon className="h-4 w-4" />
-        </a>
+        </a> */}
       </CardFooter>
     </Card>
   );
