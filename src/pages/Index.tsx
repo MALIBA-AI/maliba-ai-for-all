@@ -97,11 +97,11 @@ const Index = () => {
               subtitle="Découvrez nos initiatives pour rendre l'IA accessible à tous les Maliens"
               className="md:mb-0"
             />
-            <Link to="/projects">
+            {/* <Link to="/projects">
               <Button variant="outline" className="mt-4 md:mt-0">
                 Voir tous les projets
               </Button>
-            </Link>
+            </Link> */}
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
