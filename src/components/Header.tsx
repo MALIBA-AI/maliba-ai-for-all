@@ -8,8 +8,8 @@ import LanguageSwitcher from './LanguageSwitcher';
 const navItems = [
   { name: 'Accueil', path: '/' },
   { name: 'À propos', path: '/about' },
-  { name: 'Projets', path: '/projects' },
-  { name: 'Publications', path: '/publications' },
+  // { name: 'Projets', path: '/projects' },
+  // { name: 'Publications', path: '/publications' },
   { name: 'Rejoignez-nous', path: '/join' },
   { name: 'Contact', path: '/contact' },
 ];
