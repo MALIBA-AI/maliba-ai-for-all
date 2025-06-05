@@ -134,7 +134,7 @@ const About = () => {
             
             <div className="relative h-96 md:h-[500px]">
               <img 
-                src={malibaAiImage} 
+                src= "https://pbs.twimg.com/media/FJTUOySXIAAdCsH?format=jpg&name=large" //{malibaAiImage} 
                 alt="Maliba AI" 
                 className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl"
               />
