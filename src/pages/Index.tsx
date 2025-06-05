@@ -7,6 +7,7 @@ import FeatureCard from '@/components/FeatureCard';
 import ProjectCard from '@/components/ProjectCard';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { link } from 'fs';
 
 const featuredProjects = [
   {
@@ -15,7 +16,8 @@ const featuredProjects = [
     description: "Un modèle de reconnaissance vocale entraîné pour le bambara, capable de transcrire automatiquement la parole en texte, que le discours soit entièrement en bambara ou mêlé au français ou englais.",
     category: "Modèles de langage",
     tags: ["NLP", "Bambara", "ASR"],
-    image: "https://nordicapis.com/wp-content/uploads/5-Best-Speech-to-Text-APIs-in-2021.png"
+    image: "https://nordicapis.com/wp-content/uploads/5-Best-Speech-to-Text-APIs-in-2021.png",
+    link: "https://huggingface.co/sudoping01/maliba-asr-v1"
   },
   {
     id: "mali-voice",
@@ -23,7 +25,8 @@ const featuredProjects = [
     description: "Une technologie de synthèse voice capable de generer de la voix synthetique en bambara, boomu, dogon, pular, songhoy et tamasheq",
     category: "Technologies vocales",
     tags: ["Speech-to-Text", "Accessibilité", "Dialectes"],
-    image: "https://images.ctfassets.net/y769453lpkt4/47doSFP2bhd6oWYwffTpIr/58f5f8c551d26863be59723f2a34d569/62b264ced6e2c5184b2ce2d4_The_8_Best_TTS_Voice_Providers.jpg"
+    image: "https://images.ctfassets.net/y769453lpkt4/47doSFP2bhd6oWYwffTpIr/58f5f8c551d26863be59723f2a34d569/62b264ced6e2c5184b2ce2d4_The_8_Best_TTS_Voice_Providers.jpg",
+    link: "https://huggingface.co/spaces/MALIBA-AI/MalianTTS"
   },
   {
     id: "ai-for-agriculture",
@@ -31,7 +34,8 @@ const featuredProjects = [
   description: "Un assistant vocal 100% en Bambara, capable de répondre à l’oral en Bambara et d’aider les utilisateurs à comprendre des documents administratifs, accéder à des informations utiles (santé, agriculture, éducation) ou encore apprendre des notions scientifiques comme les lois de la physique le tout sans avoir besoin de savoir lire ou écrire.",
   category: "Technologies vocales",
   tags: ["Bambara", "Assistant vocal", "Accessibilité", "Éducation", "Traduction", "Inclusion numérique"],
-  image: "https://www.sprinterra.com/wp-content/uploads/2024/07/iStock-1367728606.jpg"
+  image: "https://www.sprinterra.com/wp-content/uploads/2024/07/iStock-1367728606.jpg",
+  link: "#"
   }
 ];
 
