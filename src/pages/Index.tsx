@@ -35,7 +35,7 @@ const featuredProjects = [
   category: "Technologies vocales",
   tags: ["Bambara", "Assistant vocal", "Accessibilité", "Éducation", "Traduction", "Inclusion numérique"],
   image: "https://www.sprinterra.com/wp-content/uploads/2024/07/iStock-1367728606.jpg",
-  link: "#"
+  link: "#n"
   }
 ];
 
