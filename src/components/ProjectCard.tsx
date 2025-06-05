@@ -13,6 +13,7 @@ export interface ProjectCardProps {
   category: string;
   tags?: string[];
   image?: string;
+  link?: string;
 }
 
 const ProjectCard = ({ 
@@ -21,7 +22,8 @@ const ProjectCard = ({
   description, 
   category, 
   tags = [],
-  image = "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format"
+  image = "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format",
+  link
 }: ProjectCardProps) => {
   return (
     <Card className="overflow-hidden card-hover">
@@ -52,12 +54,14 @@ const ProjectCard = ({
         )}
       </CardContent>
       <CardFooter className="flex justify-between">
-        <Link to={`/projects/${id}`}>
+        {/* <Link to={`/projects/${id}`}> */}
+        <a href={link}>
           <Button variant="ghost" className="text-maliba-ocre hover:text-maliba-ocre/90 p-0">
             Voir le projet
             <ArrowRight className="h-4 w-4 ml-1" />
           </Button>
-        </Link>
+        </a>
+        {/* </Link> */}
         
         <a href="#" className="text-gray-500 hover:text-maliba-ocre">
           <LinkIcon className="h-4 w-4" />
