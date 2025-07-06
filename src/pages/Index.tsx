@@ -17,7 +17,7 @@ const featuredProjects = [
     category: "Modèles de langage",
     tags: ["NLP", "Bambara", "ASR"],
     image: "https://nordicapis.com/wp-content/uploads/5-Best-Speech-to-Text-APIs-in-2021.png",
-    link: "https://huggingface.co/sudoping01/maliba-asr-v1",
+    link: "https://huggingface.co/spaces/MALIBA-AI/BambaraSpeechToText",
     commingSoon: false
   },
   {
