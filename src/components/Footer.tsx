@@ -53,8 +53,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-maliba-ocre flex-shrink-0" />
-                <a href="mailto:contact@maliba-ai.org" className="footer-link">
-                  contact@maliba-ai.org
+                <a href="mailto:ml.maliba.ai@gmail.com" className="footer-link">
+                ml.maliba.ai@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
