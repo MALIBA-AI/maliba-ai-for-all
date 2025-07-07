@@ -39,8 +39,8 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-bold mb-2">Email</h3>
                 <p className="text-gray-600 mb-1">Pour les questions générales/partenariats:</p>
-                <a href="mailto:ml.maliba.ai@gmail.com" className="text-maliba-blue hover:underline">
-                  ml.maliba.ai@gmail.com
+                <a href="mailto:contact@maliba-ai.org" className="text-maliba-blue hover:underline">
+                contact@maliba-ai.org
                 </a>
               </div>
             </div>
