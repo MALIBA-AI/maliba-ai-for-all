@@ -41,8 +41,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/" className="footer-link">Accueil</Link></li>
               <li><Link to="/about" className="footer-link">À propos</Link></li>
-              <li><Link to="/projects" className="footer-link">Projets</Link></li>
-              <li><Link to="/publications" className="footer-link">Publications</Link></li>
+              {/* <li><Link to="/projects" className="footer-link">Projets</Link></li> */}
+              {/* <li><Link to="/publications" className="footer-link">Publications</Link></li> */}
               <li><Link to="/join" className="footer-link">Rejoignez-nous</Link></li>
               <li><Link to="/contact" className="footer-link">Contact</Link></li>
             </ul>
@@ -53,8 +53,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-maliba-ocre flex-shrink-0" />
-                <a href="mailto:ml.maliba.ai@gmail.com" className="footer-link">
-                ml.maliba.ai@gmail.com
+                <a href="mailto:contact@maliba-ai.org" className="footer-link">
+                contact@maliba-ai.org
                 </a>
               </li>
               <li className="flex items-center gap-2">
